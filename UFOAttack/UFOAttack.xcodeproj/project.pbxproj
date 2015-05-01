@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		823978711AF17C6B00E5345B /* ButtonGame.png in Resources */ = {isa = PBXBuildFile; fileRef = 823978701AF17C6B00E5345B /* ButtonGame.png */; };
+		825F64C21AF1992000CBD708 /* Failure.wav in Resources */ = {isa = PBXBuildFile; fileRef = 825F64C11AF1992000CBD708 /* Failure.wav */; };
+		825F64C41AF19AA100CBD708 /* Display.png in Resources */ = {isa = PBXBuildFile; fileRef = 825F64C31AF19AA100CBD708 /* Display.png */; };
+		828149A61AF11D540054DE58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828149A51AF11D540054DE58 /* AppDelegate.swift */; };
+		828149AA1AF11D540054DE58 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828149A91AF11D540054DE58 /* GameScene.swift */; };
+		828149AC1AF11D540054DE58 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828149AB1AF11D540054DE58 /* GameViewController.swift */; };
+		828149AF1AF11D540054DE58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828149AD1AF11D540054DE58 /* Main.storyboard */; };
+		828149B11AF11D540054DE58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828149B01AF11D540054DE58 /* Images.xcassets */; };
+		828149B41AF11D540054DE58 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 828149B21AF11D540054DE58 /* LaunchScreen.xib */; };
+		828149C01AF11D540054DE58 /* UFOAttackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828149BF1AF11D540054DE58 /* UFOAttackTests.swift */; };
+		828149CA1AF121860054DE58 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 828149C91AF121860054DE58 /* star.png */; };
+		829727331AF15B0300BB2737 /* ufo0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8297272A1AF15B0300BB2737 /* ufo0.png */; };
+		829727341AF15B0300BB2737 /* ufo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8297272B1AF15B0300BB2737 /* ufo1.png */; };
+		829727351AF15B0300BB2737 /* ufo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8297272C1AF15B0300BB2737 /* ufo2.png */; };
+		829727361AF15B0300BB2737 /* ufo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8297272D1AF15B0300BB2737 /* ufo3.png */; };
+		829727371AF15B0300BB2737 /* ufo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8297272E1AF15B0300BB2737 /* ufo4.png */; };
+		829727381AF15B0300BB2737 /* ufo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8297272F1AF15B0300BB2737 /* ufo5.png */; };
+		829727391AF15B0300BB2737 /* ufo6.png in Resources */ = {isa = PBXBuildFile; fileRef = 829727301AF15B0300BB2737 /* ufo6.png */; };
+		8297273A1AF15B0300BB2737 /* ufo7.png in Resources */ = {isa = PBXBuildFile; fileRef = 829727311AF15B0300BB2737 /* ufo7.png */; };
+		8297273B1AF15B0300BB2737 /* ufo8.png in Resources */ = {isa = PBXBuildFile; fileRef = 829727321AF15B0300BB2737 /* ufo8.png */; };
+		82997BEA1AF13FFE0066ECB8 /* BgSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 82997BE91AF13FFE0066ECB8 /* BgSound.wav */; };
+		82A454D51AF1816300D109B0 /* break.wav in Resources */ = {isa = PBXBuildFile; fileRef = 82A454D41AF1816300D109B0 /* break.wav */; };
+		82A454D91AF1835C00D109B0 /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A454D81AF1835C00D109B0 /* MainScene.swift */; };
+		82A454DB1AF1858D00D109B0 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82A454DA1AF1858D00D109B0 /* bg.jpg */; };
+		82A454DD1AF1873600D109B0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 82A454DC1AF1873600D109B0 /* logo.png */; };
+		82A454DF1AF188AF00D109B0 /* UFOAttack.png in Resources */ = {isa = PBXBuildFile; fileRef = 82A454DE1AF188AF00D109B0 /* UFOAttack.png */; };
+		82A454E11AF18B0600D109B0 /* StartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 82A454E01AF18B0600D109B0 /* StartButton.png */; };
+		82A454E51AF191A300D109B0 /* SoundMain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82A454E41AF191A300D109B0 /* SoundMain.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		828149BA1AF11D540054DE58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 828149981AF11D540054DE58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8281499F1AF11D540054DE58;
+			remoteInfo = UFOAttack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		823978701AF17C6B00E5345B /* ButtonGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonGame.png; sourceTree = "<group>"; };
+		825F64C11AF1992000CBD708 /* Failure.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Failure.wav; sourceTree = "<group>"; };
+		825F64C31AF19AA100CBD708 /* Display.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Display.png; sourceTree = "<group>"; };
+		828149A01AF11D540054DE58 /* UFOAttack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UFOAttack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		828149A41AF11D540054DE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		828149A51AF11D540054DE58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		828149A91AF11D540054DE58 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		828149AB1AF11D540054DE58 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		828149AE1AF11D540054DE58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		828149B01AF11D540054DE58 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		828149B31AF11D540054DE58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		828149B91AF11D540054DE58 /* UFOAttackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UFOAttackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		828149BE1AF11D540054DE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		828149BF1AF11D540054DE58 /* UFOAttackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFOAttackTests.swift; sourceTree = "<group>"; };
+		828149C91AF121860054DE58 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		8297272A1AF15B0300BB2737 /* ufo0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo0.png; sourceTree = "<group>"; };
+		8297272B1AF15B0300BB2737 /* ufo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo1.png; sourceTree = "<group>"; };
+		8297272C1AF15B0300BB2737 /* ufo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo2.png; sourceTree = "<group>"; };
+		8297272D1AF15B0300BB2737 /* ufo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo3.png; sourceTree = "<group>"; };
+		8297272E1AF15B0300BB2737 /* ufo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo4.png; sourceTree = "<group>"; };
+		8297272F1AF15B0300BB2737 /* ufo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo5.png; sourceTree = "<group>"; };
+		829727301AF15B0300BB2737 /* ufo6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo6.png; sourceTree = "<group>"; };
+		829727311AF15B0300BB2737 /* ufo7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo7.png; sourceTree = "<group>"; };
+		829727321AF15B0300BB2737 /* ufo8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo8.png; sourceTree = "<group>"; };
+		82997BE91AF13FFE0066ECB8 /* BgSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BgSound.wav; sourceTree = "<group>"; };
+		82A454D41AF1816300D109B0 /* break.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = break.wav; sourceTree = "<group>"; };
+		82A454D81AF1835C00D109B0 /* MainScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
+		82A454DA1AF1858D00D109B0 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		82A454DC1AF1873600D109B0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		82A454DE1AF188AF00D109B0 /* UFOAttack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFOAttack.png; sourceTree = "<group>"; };
+		82A454E01AF18B0600D109B0 /* StartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartButton.png; sourceTree = "<group>"; };
+		82A454E41AF191A300D109B0 /* SoundMain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SoundMain.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8281499D1AF11D540054DE58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828149B61AF11D540054DE58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		828149971AF11D540054DE58 = {
+			isa = PBXGroup;
+			children = (
+				828149A21AF11D540054DE58 /* UFOAttack */,
+				828149BC1AF11D540054DE58 /* UFOAttackTests */,
+				828149A11AF11D540054DE58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		828149A11AF11D540054DE58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				828149A01AF11D540054DE58 /* UFOAttack.app */,
+				828149B91AF11D540054DE58 /* UFOAttackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		828149A21AF11D540054DE58 /* UFOAttack */ = {
+			isa = PBXGroup;
+			children = (
+				828149A51AF11D540054DE58 /* AppDelegate.swift */,
+				82A454D81AF1835C00D109B0 /* MainScene.swift */,
+				828149A91AF11D540054DE58 /* GameScene.swift */,
+				828149AB1AF11D540054DE58 /* GameViewController.swift */,
+				828149AD1AF11D540054DE58 /* Main.storyboard */,
+				828149B01AF11D540054DE58 /* Images.xcassets */,
+				828149B21AF11D540054DE58 /* LaunchScreen.xib */,
+				828149A31AF11D540054DE58 /* Supporting Files */,
+			);
+			path = UFOAttack;
+			sourceTree = "<group>";
+		};
+		828149A31AF11D540054DE58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82997BE61AF1336B0066ECB8 /* Sounds */,
+				828149CB1AF121970054DE58 /* Image */,
+				828149A41AF11D540054DE58 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		828149BC1AF11D540054DE58 /* UFOAttackTests */ = {
+			isa = PBXGroup;
+			children = (
+				828149BF1AF11D540054DE58 /* UFOAttackTests.swift */,
+				828149BD1AF11D540054DE58 /* Supporting Files */,
+			);
+			path = UFOAttackTests;
+			sourceTree = "<group>";
+		};
+		828149BD1AF11D540054DE58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				828149BE1AF11D540054DE58 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		828149CB1AF121970054DE58 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				8297272A1AF15B0300BB2737 /* ufo0.png */,
+				8297272B1AF15B0300BB2737 /* ufo1.png */,
+				8297272C1AF15B0300BB2737 /* ufo2.png */,
+				8297272D1AF15B0300BB2737 /* ufo3.png */,
+				8297272E1AF15B0300BB2737 /* ufo4.png */,
+				8297272F1AF15B0300BB2737 /* ufo5.png */,
+				829727301AF15B0300BB2737 /* ufo6.png */,
+				829727311AF15B0300BB2737 /* ufo7.png */,
+				829727321AF15B0300BB2737 /* ufo8.png */,
+				82A454DA1AF1858D00D109B0 /* bg.jpg */,
+				82A454DC1AF1873600D109B0 /* logo.png */,
+				82A454DE1AF188AF00D109B0 /* UFOAttack.png */,
+				82A454E01AF18B0600D109B0 /* StartButton.png */,
+				823978701AF17C6B00E5345B /* ButtonGame.png */,
+				828149C91AF121860054DE58 /* star.png */,
+				825F64C31AF19AA100CBD708 /* Display.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		82997BE61AF1336B0066ECB8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				82A454D41AF1816300D109B0 /* break.wav */,
+				82997BE91AF13FFE0066ECB8 /* BgSound.wav */,
+				82A454E41AF191A300D109B0 /* SoundMain.mp3 */,
+				825F64C11AF1992000CBD708 /* Failure.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8281499F1AF11D540054DE58 /* UFOAttack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828149C31AF11D540054DE58 /* Build configuration list for PBXNativeTarget "UFOAttack" */;
+			buildPhases = (
+				8281499C1AF11D540054DE58 /* Sources */,
+				8281499D1AF11D540054DE58 /* Frameworks */,
+				8281499E1AF11D540054DE58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UFOAttack;
+			productName = UFOAttack;
+			productReference = 828149A01AF11D540054DE58 /* UFOAttack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		828149B81AF11D540054DE58 /* UFOAttackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828149C61AF11D540054DE58 /* Build configuration list for PBXNativeTarget "UFOAttackTests" */;
+			buildPhases = (
+				828149B51AF11D540054DE58 /* Sources */,
+				828149B61AF11D540054DE58 /* Frameworks */,
+				828149B71AF11D540054DE58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				828149BB1AF11D540054DE58 /* PBXTargetDependency */,
+			);
+			name = UFOAttackTests;
+			productName = UFOAttackTests;
+			productReference = 828149B91AF11D540054DE58 /* UFOAttackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		828149981AF11D540054DE58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Narudaj;
+				TargetAttributes = {
+					8281499F1AF11D540054DE58 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					828149B81AF11D540054DE58 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 8281499F1AF11D540054DE58;
+					};
+				};
+			};
+			buildConfigurationList = 8281499B1AF11D540054DE58 /* Build configuration list for PBXProject "UFOAttack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 828149971AF11D540054DE58;
+			productRefGroup = 828149A11AF11D540054DE58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8281499F1AF11D540054DE58 /* UFOAttack */,
+				828149B81AF11D540054DE58 /* UFOAttackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8281499E1AF11D540054DE58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A454E11AF18B0600D109B0 /* StartButton.png in Resources */,
+				828149B41AF11D540054DE58 /* LaunchScreen.xib in Resources */,
+				829727371AF15B0300BB2737 /* ufo4.png in Resources */,
+				82A454E51AF191A300D109B0 /* SoundMain.mp3 in Resources */,
+				82A454DD1AF1873600D109B0 /* logo.png in Resources */,
+				82997BEA1AF13FFE0066ECB8 /* BgSound.wav in Resources */,
+				829727361AF15B0300BB2737 /* ufo3.png in Resources */,
+				825F64C41AF19AA100CBD708 /* Display.png in Resources */,
+				82A454DF1AF188AF00D109B0 /* UFOAttack.png in Resources */,
+				829727341AF15B0300BB2737 /* ufo1.png in Resources */,
+				828149CA1AF121860054DE58 /* star.png in Resources */,
+				829727381AF15B0300BB2737 /* ufo5.png in Resources */,
+				828149B11AF11D540054DE58 /* Images.xcassets in Resources */,
+				823978711AF17C6B00E5345B /* ButtonGame.png in Resources */,
+				8297273A1AF15B0300BB2737 /* ufo7.png in Resources */,
+				82A454D51AF1816300D109B0 /* break.wav in Resources */,
+				8297273B1AF15B0300BB2737 /* ufo8.png in Resources */,
+				828149AF1AF11D540054DE58 /* Main.storyboard in Resources */,
+				825F64C21AF1992000CBD708 /* Failure.wav in Resources */,
+				82A454DB1AF1858D00D109B0 /* bg.jpg in Resources */,
+				829727331AF15B0300BB2737 /* ufo0.png in Resources */,
+				829727351AF15B0300BB2737 /* ufo2.png in Resources */,
+				829727391AF15B0300BB2737 /* ufo6.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828149B71AF11D540054DE58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8281499C1AF11D540054DE58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828149AA1AF11D540054DE58 /* GameScene.swift in Sources */,
+				82A454D91AF1835C00D109B0 /* MainScene.swift in Sources */,
+				828149AC1AF11D540054DE58 /* GameViewController.swift in Sources */,
+				828149A61AF11D540054DE58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828149B51AF11D540054DE58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828149C01AF11D540054DE58 /* UFOAttackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		828149BB1AF11D540054DE58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8281499F1AF11D540054DE58 /* UFOAttack */;
+			targetProxy = 828149BA1AF11D540054DE58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		828149AD1AF11D540054DE58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828149AE1AF11D540054DE58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		828149B21AF11D540054DE58 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828149B31AF11D540054DE58 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		828149C11AF11D540054DE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		828149C21AF11D540054DE58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		828149C41AF11D540054DE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UFOAttack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		828149C51AF11D540054DE58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UFOAttack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		828149C71AF11D540054DE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UFOAttackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UFOAttack.app/UFOAttack";
+			};
+			name = Debug;
+		};
+		828149C81AF11D540054DE58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UFOAttackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UFOAttack.app/UFOAttack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8281499B1AF11D540054DE58 /* Build configuration list for PBXProject "UFOAttack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828149C11AF11D540054DE58 /* Debug */,
+				828149C21AF11D540054DE58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828149C31AF11D540054DE58 /* Build configuration list for PBXNativeTarget "UFOAttack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828149C41AF11D540054DE58 /* Debug */,
+				828149C51AF11D540054DE58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828149C61AF11D540054DE58 /* Build configuration list for PBXNativeTarget "UFOAttackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828149C71AF11D540054DE58 /* Debug */,
+				828149C81AF11D540054DE58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 828149981AF11D540054DE58 /* Project object */;
+}
