@@ -50,7 +50,6 @@ class GameScene: SKScene {
     var ufos: NSMutableArray = []
     
     override func didMoveToView(view: SKView) {
-
         initial(1)
     }
     
